@@ -24,12 +24,12 @@ endif()
 
 if(UNIX)
   # hacky. hardcoded cvpr-intern directory, otherwise this script doesn't find mex
-  foreach(__ver "R2016b" "R2016a" "R2015b" "R2015a" "R2014b" "R2014a" "R2013b" "R2013a" "R2012b" "R2012a" "R2011b" "R2011a" "R2010b" "R2010a")
-    if(EXISTS /usr/local/lehrstuhl/DIR/matlab-${__ver})
-      set(__matlab_root /usr/local/lehrstuhl/DIR/matlab-${__ver})
-      break()
-    endif()
-  endforeach()
+  #foreach(__ver "R2016b" "R2016a" "R2015b" "R2015a" "R2014b" "R2014a" "R2013b" "R2013a" "R2012b" "R2012a" "R2011b" "R2011a" "R2010b" "R2010a")
+    #if(EXISTS /usr/local/lehrstuhl/DIR/matlab-${__ver})
+      set(__matlab_root /home/vsa_jonas/Files/Matlab/2017b)
+   #   break()
+   # endif()
+  #endforeach()
 
   # if(NOT __matlab_root)
   #   execute_process(COMMAND which matlab OUTPUT_STRIP_TRAILING_WHITESPACE
