@@ -26,7 +26,7 @@ if(UNIX)
   # hacky. hardcoded cvpr-intern directory, otherwise this script doesn't find mex
   #foreach(__ver "R2016b" "R2016a" "R2015b" "R2015a" "R2014b" "R2014a" "R2013b" "R2013a" "R2012b" "R2012a" "R2011b" "R2011a" "R2010b" "R2010a")
     #if(EXISTS /usr/local/lehrstuhl/DIR/matlab-${__ver})
-      set(__matlab_root /usr/local/MATLAB/R2018b)
+      set(__matlab_root /usr/local/MATLAB/R2019b)
    #   break()
    # endif()
   #endforeach()
